@@ -1,0 +1,51 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "rdfs:comment": [
+    "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/"
+  ],
+  "url": "Data/interactions.csv",
+  "dcterms:bibliographicCitation": "Gripenberg, S. et al., 2019. A highly resolved food web for insect seed predators in a species‐rich tropical forest F. Jordan, ed. Ecology Letters, 22(10), pp.1638–1649. Available at: https://doi.org/10.1111/ele.13359.",
+  "doi": "10.1111/ele.13359",
+  "interactionTypeName": "preys on",
+  "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002439",
+  "targetBodyPartName": "seed",
+  "targetBodyPartId": "http://purl.obolibrary.org/obo/PO_0009010",
+  "headerRowCount": 1,
+  "null": [
+    ""
+  ],
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "sourceTaxonName",
+        "titles": "FullSpeciesNameValid",
+        "datatype": "string"
+      },
+      {
+        "name": "sourceTaxonFamily",
+        "titles": "Family.x",
+        "datatype": "string"
+      },
+      {
+        "name": "targetTaxonName",
+        "titles": "Plant_species19",
+        "datatype": "string"
+      },
+      {
+        "name": "targetTaxonFamily",
+        "titles": "Family.y",
+        "datatype": "string"
+      },
+      {
+        "name": "TOTAL",
+        "titles": "TOTAL",
+        "datatype": "string"
+      }
+    ]
+  }
+}
